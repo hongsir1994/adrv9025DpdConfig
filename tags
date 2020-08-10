@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RadioControl	dpdconfiguration.py	/^    RadioControl = Types.adi_adrv9010_RadioCtrlModeCfg_t()$/;"	v
+TxCh	dpdconfiguration.py	/^TxCh = Types.adi_adrv9010_TxChannels_e.ADI_ADRV9010_TX2 # why set to Tx2, question by feigo$/;"	v
+adrv9010	dpdconfiguration.py	/^    adrv9010 = link.Adrv9010Get(1)$/;"	v
+connect	dpdconfiguration.py	/^    connect = True$/;"	v
+connect	dpdconfiguration.py	/^connect = False$/;"	v
+defaultDpdModel	dpdconfiguration.py	/^def defaultDpdModel():$/;"	f
+dpdEnableTracking	dpdconfiguration.py	/^def dpdEnableTracking(txChMask = 0xF, enable = 0):$/;"	f
+dpdIndirectEvmStabilityConfigSet	dpdconfiguration.py	/^def dpdIndirectEvmStabilityConfigSet(txChannelMask = 0x0F): #设置相应的通道掩码$/;"	f
+dpdModelConfigSet	dpdconfiguration.py	/^def dpdModelConfigSet():$/;"	f
+dpdStatusGet	dpdconfiguration.py	/^def dpdStatusGet(txChannel):$/;"	f
+dpdTrackingConfigSet	dpdconfiguration.py	/^def dpdTrackingConfigSet( txChMask = 0xF):$/;"	f
+getExtPathDelay	dpdconfiguration.py	/^def getExtPathDelay(txCh):$/;"	f
+intDpdActCompSize	dpdconfiguration.py	/^intDpdActCompSize = Types.adi_adrv9010_DpdActuatorCompanderSize_e$/;"	v
+intDpdErr	dpdconfiguration.py	/^intDpdErr = Types.adi_adrv9010_DpdError_e$/;"	v
+intDpdLut	dpdconfiguration.py	/^intDpdLut =Types.adi_adrv9010_DpdLut_e$/;"	v
+intDpdModel	dpdconfiguration.py	/^intDpdModel = Types.adi_adrv9010_DpdModelConfig_t$/;"	v
+intDpdModelSel	dpdconfiguration.py	/^intDpdModelSel = Types.adi_adrv9010_DpdModelSel_e$/;"	v
+intDpdResetMode	dpdconfiguration.py	/^intDpdResetMode = Types.adi_adrv9010_DpdResetMode_e$/;"	v
+intDpdStatus	dpdconfiguration.py	/^intDpdStatus = Types.adi_adrv9010_DpdStatus_t$/;"	v
+link	dpdconfiguration.py	/^link = AdiEvaluationSystem.Instance	$/;"	v
+luts	dpdconfiguration.py	/^luts = {$/;"	v
+resetDpdFull	dpdconfiguration.py	/^def resetDpdFull(TxChannel):$/;"	f
+runExtPathDelayInitCal	dpdconfiguration.py	/^def runExtPathDelayInitCal(chMask):$/;"	f
+setExtPathDelay	dpdconfiguration.py	/^def setExtPathDelay(txCh, fifoDel, interpIndex):$/;"	f
+spiRead	dpdconfiguration.py	/^def spiRead(address):$/;"	f
+spiWrite	dpdconfiguration.py	/^def spiWrite(address, data):$/;"	f
+status	dpdconfiguration.py	/^    status = adrv9010.RadioCtrl.RxTxEnableGet(0,0)$/;"	v
