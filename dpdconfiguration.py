@@ -101,7 +101,7 @@ def dpdModelConfigSet():
             continue  
         row = row.split()
         #print row
-        dpdModel.dpdFeatures[n].i = int(row[0]) #读取和需要设置的参数
+        dpdModel.dpdFeatures[n].i = int(row[0]) #读取和需要设置的参数,读取第一行的第一个参数,一下一次类推
         #print int(row[0])
         dpdModel.dpdFeatures[n].j = int(row[1])
         dpdModel.dpdFeatures[n].k = int(row[2])
